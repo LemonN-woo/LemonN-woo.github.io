@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Markdown学习笔记</title>
+      <link href="/2022/12/31/learnmd-0/"/>
+      <url>/2022/12/31/learnmd-0/</url>
+      
+        <content type="html"><![CDATA[<p>#MarkDown Test<br>##Hello World<br>###三级标题</p><blockquote><p>这是一段引用 使用&gt;表示</p></blockquote><blockquote><p>嵌套引用</p><blockquote><p>第二层</p><blockquote><p>第三层</p></blockquote></blockquote></blockquote><blockquote><p>区块中使用列表<br>1.hello<br>2.world</p><ul><li><p>hello</p></li><li><p>world</p></li></ul></blockquote><ul><li><p>hello</p><blockquote><p>helloworld<br>yes</p></blockquote><p>四个空格或者Tab 代码区块</p></li></ul><p>有序列表：<br>1.打开冰箱<br>2.把大象放进冰箱<br>3.关上冰箱</p><p>无序列表</p><ul><li><p>使用短横线-加空格</p></li><li><p>或者是加号+加空格</p></li><li><p>或者是星号*加空格</p></li></ul><p>嵌套列表：<br>1.第一个列表</p><ul><li>在前面加两个空格<ul><li>四个空格</li></ul></li></ul><p>任务列表：</p><ul><li><input disabled="" type="checkbox"> 一个-加空格加中括号（括号内有空格）</li><li><input checked="" disabled="" type="checkbox"> 这就是任务</li><li><input disabled="" type="checkbox"> 在空格里面输入一个字母x 即可打钩</li></ul><p>代码块：</p><blockquote><p>三个反引号加上要输入代码的语言 结束也需要``` 例如：</p></blockquote><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>数学公式：latex 四个美元符号括起来<br>$$<br>a+b=c<br>$$</p><p>表格：</p><table><thead><tr><th align="left">左对齐</th><th align="right">右对齐</th><th align="center">居中对齐</th></tr></thead><tbody><tr><td align="left">张三</td><td align="right">13</td><td align="center">19</td></tr><tr><td align="left">李四</td><td align="right">18</td><td align="center">20</td></tr></tbody></table><p>脚注：<br>一个词[^这是脚注]<br>[^这是脚注]:解释一下脚注 [^写上脚注]</p><p>横线：—</p><p>链接： <a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80">链接名称</a> 或者&lt;链接地址&gt; <a href="baidu.com" title="一个搜索引擎">百度</a></p><p>引用链接： <a href="baidu.com" title="一个搜索引擎">百度</a></p><p>链接到标题：<br>请参考<a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98">三级标题</a></p><p>URL： <a href="http://www.baidu.com/">http://www.baidu.com</a></p><p>图片： <img src="http://static.runoob.com/images/runoob-logo.png" alt="菜鸟教程" title="菜鸟教程"></p><p>一对星号<em>斜体</em> 两对星号<strong>加粗</strong> 一对反引号<code>行内代码</code> 下划线<u>使用u标签</u> 删除线：<del>删除</del> 表情<span class="github-emoji"><span>😄</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>冒号中间加表情的名称<br>行内数学公式a+b=c<br>下标H<del>2</del>O<br>上标x^2^<br>高亮文字==hello==</p><p>嵌入B站视频——复制代码即可</p><p>标粗：<code>Ctrl+ B</code><br>标斜：<code>Ctrl+ I</code><br>下划线：<code>Ctrl+ U</code><br>高亮：<code>Ctrl + Shift + H</code><br>删除线：<code>Ctrl + D</code></p><p>行内代码：<code>Ctrl + 反单引号（数字1旁边的符号）</code></p><p>插入表格：<code>Ctrl + T</code><br>表格当前行插入下一行：<code>Ctrl + Enter</code><br>当前表格中换行：<code>Shift + Enter</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他资料 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 其他 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/12/27/hello-world/"/>
+      <url>/2022/12/27/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
